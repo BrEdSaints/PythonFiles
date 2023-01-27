@@ -1,2 +1,2 @@
 # PythonFiles
-Learning Python whereas enrolled in a Cybersecurity Course and a Google Analytics Course
+Learning Python whereas enrolled in a Cybersecurity Course and in a Google Analytics Course.
