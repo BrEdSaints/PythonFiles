@@ -1,0 +1,11 @@
+
+ print("Do you want a suggestion for your band name?")
+
+
+City = input("\n1 - What's the name your hometown?\nans = ")
+
+
+Pet = input("\n2 - tell me pet's name, maybe of a favorite one of yours.\nans = ")
+
+
+print("\nSo a good name for your band would be...\n\n\n\n\n        ...\n        ...\n        ...\n\n\n\n" +         Pet, City)
