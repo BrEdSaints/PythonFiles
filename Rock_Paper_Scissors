@@ -1,0 +1,47 @@
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+#Write your code below this line 👇
+
+games_pictures = [rock, paper, scissors]
+
+import random 
+
+player_choice = int(input("Make a choise:\ntype 0 for Rock or 1 for Paper or 2 for Scissors.\n"))
+print(games_pictures[player_choice])
+computer_choice = random.randint(0,2)
+print(f"Computer chose {computer_choice}.")
+print(games_pictures[computer_choice])
+
+if player_choice == computer_choice + 1 and player_choice != computer_choice or player_choice == computer_choice - 2:
+  print("Congratulations. You win!")
+elif computer_choice == player_choice + 1 and computer_choice != player_choice or computer_choice == player_choice - 2: 
+  print("Unfortunately the computer wins...try it again.")
+elif player_choice == computer_choice:
+  print("It's a draw. Give another go.")
+else:
+  print("You typed an invalid number. You lose.")
